@@ -1,3 +1,5 @@
+Fork Comment - Monkey-patched both records_total_count and records_filtered_count to be .length instead of .count(:all). This avoids SQL errors on complicated queries in get_raw_records.
+
 # ajax-datatables-rails
 
 [![GitHub license](https://img.shields.io/github/license/jbox-web/ajax-datatables-rails.svg)](https://github.com/jbox-web/ajax-datatables-rails/blob/master/LICENSE)

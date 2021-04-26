@@ -117,7 +117,7 @@ module AjaxDatatablesRails
     end
 
     def records_total_count
-      fetch_records.count(:all)
+      fetch_records.size(:all)
     end
 
     def records_filtered_count

@@ -121,7 +121,7 @@ module AjaxDatatablesRails
     end
 
     def records_filtered_count
-      filter_records(fetch_records).size(:all)
+      filter_records(fetch_records).size
     end
 
     def global_search_delimiter
